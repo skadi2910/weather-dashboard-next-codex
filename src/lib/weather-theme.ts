@@ -11,49 +11,49 @@ export type WeatherSurfaceTheme = {
 export const weatherSurfaceThemes: Record<WeatherTheme, WeatherSurfaceTheme> = {
   clear: {
     shell:
-      "from-[#fff6dd] via-[#f8d790] to-[#ee9d52] text-slate-950 dark:from-[#1c2234] dark:via-[#5e4727] dark:to-[#281f26] dark:text-white",
-    halo: "bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.88),_transparent_52%)]",
-    panel: "border-white/35 bg-white/60 dark:border-white/10 dark:bg-white/10",
-    chip: "bg-slate-950 text-amber-50 dark:bg-white dark:text-slate-950",
+      "from-[#f7f7f8] via-[#f3f4f6] to-[#eceef2] text-slate-950 dark:from-[#171225] dark:via-[#111827] dark:to-[#0a101b] dark:text-white",
+    halo: "bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.55),_transparent_62%)] dark:bg-[radial-gradient(circle_at_top,_rgba(128,90,255,0.22),_transparent_52%)]",
+    panel: "border-slate-950/8 bg-white dark:border-white/10 dark:bg-white/6",
+    chip: "bg-slate-950 text-white dark:bg-primary dark:text-white",
   },
   cloudy: {
     shell:
-      "from-[#e7edf5] via-[#b8c3d2] to-[#6b7a92] text-slate-950 dark:from-[#111c2c] dark:via-[#384a64] dark:to-[#1b2432] dark:text-white",
-    halo: "bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.72),_transparent_54%)]",
-    panel: "border-white/25 bg-white/36 dark:border-white/10 dark:bg-white/10",
-    chip: "bg-slate-950 text-slate-100 dark:bg-white dark:text-slate-950",
+      "from-[#f7f7f8] via-[#f1f3f6] to-[#e8ebf0] text-slate-950 dark:from-[#141827] dark:via-[#1a2130] dark:to-[#0b1220] dark:text-white",
+    halo: "bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.5),_transparent_62%)] dark:bg-[radial-gradient(circle_at_top,_rgba(125,138,165,0.18),_transparent_54%)]",
+    panel: "border-slate-950/8 bg-white dark:border-white/10 dark:bg-white/6",
+    chip: "bg-slate-950 text-white dark:bg-primary dark:text-white",
   },
   rain: {
     shell:
-      "from-[#dcecff] via-[#89abd0] to-[#2f4f77] text-slate-950 dark:from-[#0a1420] dark:via-[#23476c] dark:to-[#071421] dark:text-white",
-    halo: "bg-[radial-gradient(circle_at_top,_rgba(173,216,255,0.52),_transparent_58%)]",
-    panel: "border-white/20 bg-white/30 dark:border-white/15 dark:bg-white/12",
-    chip: "bg-slate-950 text-white dark:bg-white dark:text-slate-900",
+      "from-[#f7f7f8] via-[#eff2f6] to-[#e7ebf1] text-slate-950 dark:from-[#0c1421] dark:via-[#18273f] dark:to-[#0a111d] dark:text-white",
+    halo: "bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.46),_transparent_62%)] dark:bg-[radial-gradient(circle_at_top,_rgba(94,134,205,0.2),_transparent_58%)]",
+    panel: "border-slate-950/8 bg-white dark:border-white/10 dark:bg-white/6",
+    chip: "bg-slate-950 text-white dark:bg-primary dark:text-white",
   },
   storm: {
-    shell: "from-[#20253a] via-[#37405f] to-[#050916] text-white",
-    halo: "bg-[radial-gradient(circle_at_top,_rgba(114,137,255,0.22),_transparent_60%)]",
-    panel: "border-white/10 bg-white/10",
-    chip: "bg-amber-200 text-slate-950",
+    shell: "from-[#f7f7f8] via-[#eef1f5] to-[#e5e9ef] text-slate-950 dark:from-[#16111f] dark:via-[#1d1c31] dark:to-[#090e18] dark:text-white",
+    halo: "bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.44),_transparent_62%)] dark:bg-[radial-gradient(circle_at_top,_rgba(121,74,255,0.24),_transparent_58%)]",
+    panel: "border-slate-950/8 bg-white dark:border-white/10 dark:bg-white/6",
+    chip: "bg-slate-950 text-white dark:bg-accent dark:text-accent-foreground",
   },
   snow: {
     shell:
-      "from-[#f8fcff] via-[#d8e7f1] to-[#9ab2c5] text-slate-950 dark:from-[#15212d] dark:via-[#51697a] dark:to-[#202836] dark:text-white",
-    halo: "bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.9),_transparent_54%)]",
-    panel: "border-white/35 bg-white/55 dark:border-white/10 dark:bg-white/10",
-    chip: "bg-slate-950 text-white dark:bg-white dark:text-slate-950",
+      "from-[#f7f7f8] via-[#f4f5f7] to-[#eceef2] text-slate-950 dark:from-[#171c2a] dark:via-[#243344] dark:to-[#101826] dark:text-white",
+    halo: "bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.5),_transparent_62%)] dark:bg-[radial-gradient(circle_at_top,_rgba(206,224,255,0.15),_transparent_54%)]",
+    panel: "border-slate-950/8 bg-white dark:border-white/10 dark:bg-white/6",
+    chip: "bg-slate-950 text-white dark:bg-primary dark:text-white",
   },
   mist: {
     shell:
-      "from-[#ebedf2] via-[#c3c7cf] to-[#707784] text-slate-950 dark:from-[#141820] dark:via-[#4a5161] dark:to-[#212633] dark:text-white",
-    halo: "bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.82),_transparent_52%)]",
-    panel: "border-white/28 bg-white/42 dark:border-white/10 dark:bg-white/10",
-    chip: "bg-slate-950 text-white dark:bg-white dark:text-slate-950",
+      "from-[#f7f7f8] via-[#f2f3f5] to-[#e8eaed] text-slate-950 dark:from-[#15181f] dark:via-[#22262d] dark:to-[#10141c] dark:text-white",
+    halo: "bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.48),_transparent_62%)] dark:bg-[radial-gradient(circle_at_top,_rgba(164,177,201,0.14),_transparent_52%)]",
+    panel: "border-slate-950/8 bg-white dark:border-white/10 dark:bg-white/6",
+    chip: "bg-slate-950 text-white dark:bg-primary dark:text-white",
   },
   night: {
-    shell: "from-[#07111f] via-[#17304f] to-[#0b1a2e] text-white",
-    halo: "bg-[radial-gradient(circle_at_top,_rgba(112,160,255,0.24),_transparent_56%)]",
-    panel: "border-white/10 bg-white/10",
-    chip: "bg-white text-slate-950",
+    shell: "from-[#f7f7f8] via-[#eff2f6] to-[#e8ecf3] text-slate-950 dark:from-[#09101b] dark:via-[#101827] dark:to-[#050913] dark:text-white",
+    halo: "bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.46),_transparent_62%)] dark:bg-[radial-gradient(circle_at_top,_rgba(121,74,255,0.18),_transparent_56%)]",
+    panel: "border-slate-950/8 bg-white dark:border-white/10 dark:bg-white/6",
+    chip: "bg-slate-950 text-white dark:bg-primary dark:text-white",
   },
 };
